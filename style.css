@@ -1,0 +1,185 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #2a2a3d);
+  color: #e0e0e0; /* Slightly lighter text */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: flex-start; /* Align content closer to the top */
+  overflow: hidden; /* Prevent unnecessary scrollbars */
+}
+
+/* Digital Clock Styling */
+.digital-clock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.digital-clock .date {
+  font-size: 2rem; /* Increase date font size */
+  color: #b0b0b0;
+  margin-bottom: 10px;
+}
+
+.digital-clock .time {
+  font-size: 5rem; /* Make the time larger */
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+/* Card Styling */
+.challenge-card {
+  background: #2e2e3d;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+/* Headings */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #00d4ff;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #66ffe6;
+}
+
+/* Text */
+p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #b0b0b0;
+}
+
+/* Buttons */
+button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+  transform: scale(1.05);
+}
+
+button:focus {
+  outline: 2px solid #66ffe6; /* High-contrast outline for accessibility */
+  outline-offset: 2px;
+}
+
+/* Links */
+a {
+  color: #00d4ff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #66ffe6;
+}
+
+/* Challenge Card */
+.challenge-card h2 {
+  margin-bottom: 1rem;
+}
+
+.challenge-card p {
+  margin-bottom: 1.5rem;
+}
+
+/* Search Bar Styling */
+.search-bar {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%; /* Full width for better alignment */
+}
+
+.search-bar input {
+  padding: 15px 20px; /* Increase padding for a bigger input field */
+  font-size: 1.2rem; /* Make the font larger */
+  border: none;
+  border-radius: 10px;
+  width: 70%; /* Make the input wider */
+  max-width: 600px; /* Set a maximum width */
+  background: #4a4a5d; /* Lighter input background */
+  color: #ffffff;
+}
+
+.search-bar input:focus {
+  outline: 2px solid #66ffe6;
+  outline-offset: 2px;
+}
+
+.search-bar button {
+  padding: 15px 20px; /* Increase padding for a bigger button */
+  font-size: 1.2rem; /* Make the font larger */
+  border: none;
+  border-radius: 10px;
+  background-color: #00d4ff;
+  color: #1e1e2f;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #00a8cc;
+}
+
+.search-bar button:focus {
+  outline: 2px solid #66ffe6;
+  outline-offset: 2px;
+}
+
+/* Footer Styling */
+footer {
+  font-size: 0.9rem;
+  color: #5e5e6e;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 15px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .digital-clock .time {
+    font-size: 4rem;
+  }
+
+  .search-bar input {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .search-bar button {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
