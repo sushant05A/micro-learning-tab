@@ -9,7 +9,6 @@ Micro-Learning Tab is a Chrome extension that replaces the new tab page with bit
 - **Daily Coding Challenges:** Displays the daily challenge from LeetCode, including its title, difficulty, and acceptance rate.
 - **Digital Clock:** A visually appealing clock showing the current time and date.
 - **Search Bar:** Quickly search using Google directly from the new tab page.
-- **Customizable Settings:** Options to enable dark mode, notifications, and preferred difficulty.
 
 ---
 
